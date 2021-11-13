@@ -18,9 +18,9 @@ install()
     echo "\nInstalling HTTP Parser................."
     echo "\nInstalling required programs..........."
     echo "\nInstalling Python......................"
-    sudo apt install python3 -y
+    sudo apt install python3.8 -y
     sudo apt install python3-pip -y
-    sudo pip3 install python3-venv
+    sudo apt install python3.8-venv -y
     echo"\nSetting up virtual python environment..."
     sudo python3 -m venv $VIRTUAL_ENV_PATH/htmlparser
     echo "\nInstalling required libraries.........."

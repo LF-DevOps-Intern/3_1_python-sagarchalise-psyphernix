@@ -82,12 +82,11 @@ def data_save(data):
     '''
     try: #
         date = datetime.now().strftime("%Y%m%d%H%M%S") # date and time in format of YYYYMMDDHHMMSS
-        name = "Get Response @" + date + ".html" # name of the file
-        file_name = "Responses/" + name # full path of the file
+        file_name = "Get Response @" + date + ".html" # name of the file
         with open(file_name, 'wb') as file: # opening file in write mode
             file.write(data) # writing data in file
             file.close() # closing file
-        print("Data is successfully saved with the filename {0}".format(name)) # printing message
+        print("Data is successfully saved with the filename {0}".format(file_name)) # printing message
         return None # returning None
 
     except:

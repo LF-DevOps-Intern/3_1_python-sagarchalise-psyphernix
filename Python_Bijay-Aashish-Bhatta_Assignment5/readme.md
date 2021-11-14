@@ -5,7 +5,7 @@ Before running http parser app, please setup environment using followinng comman
 After install you can use app by using following commands:
 
     $ ./htmlparser.sh -u url_of_website (to parse only)
-    $ ./htmlparser.sh -u url_of_wrbsite -s flag (to run htttp server after parsing)
+    $ ./htmlparser.sh -u url_of_website -s flag (to run htttp server after parsing)
 
 Example:
 
